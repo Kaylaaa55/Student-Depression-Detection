@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-from PIL import Image
+#from PIL import Image
 
 # Konfigurasi halaman dan judul
 st.set_page_config(page_title="Student Depression Detetction", layout="wide", initial_sidebar_state="auto")
