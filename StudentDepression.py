@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-#from PIL import Image
+from PIL import Image
 
 # Konfigurasi halaman dan judul
 st.set_page_config(page_title="Student Depression Detetction", layout="wide", initial_sidebar_state="auto")
@@ -13,8 +13,8 @@ Website ini dibuat oleh : [Amelia Putri Kayla](https://www.linkedin.com/in/budi-
 """)
 
 #Menambahkan Gambar dan Pengantar
-#image = Image.open("Student_Depression.jpeg")
-#st.image(image, caption="Student Depression")
+image = Image.open("Student_Depression.jpeg")
+st.image(image, caption="Student Depression")
 
 st.markdown("""
 Student Depression Prediction
@@ -51,9 +51,6 @@ By detecting early signs of depression, this tool aims to support mental health 
 """)
 
 # Load model
-#with open("Kaylaaa55/Student-Depression-Detection/main/StudentDepression5.pkl", "rb") as file:
-    #model = pickle.load(file)
-    
 with open("StudentDepression4.pkl", "rb") as file:
     model = pickle.load(file)
 
