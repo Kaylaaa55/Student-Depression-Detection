@@ -57,7 +57,8 @@ By detecting early signs of depression, this tool aims to support mental health 
 @st.cache_resource
 def load_model():
     with open("StudentDepression4.pkl", "rb") as file:
-        return pickle.load(file)
+        model = pickle.load(file)
+    return model
 
 model = load_model()
 
