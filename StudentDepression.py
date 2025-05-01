@@ -23,7 +23,7 @@ Mental health issues among college students have become a growing concern in hig
 the percentage of students experiencing psychological distress has increased significantly each year. One key finding reveals that more than 60% of students reported feeling deeply depressed, and over 20% felt hopeless in
 the past few weeks. Academic pressure, social isolation, and uncertainty about the future are the main contributing factors to the rise of depression among students.**.
 
-> **Source**: [Sleep Foundation - Sleep Guidelines](https://www.apa.org/monitor/2022/10/mental-health-campus-care)
+> **Source**: [American College Health Association](https://www.apa.org/monitor/2022/10/mental-health-campus-care)
 
 ---
 
