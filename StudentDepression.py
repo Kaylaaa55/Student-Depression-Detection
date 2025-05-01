@@ -9,7 +9,7 @@ st.set_page_config(page_title="Student Depression Detetction", layout="wide", in
 st.write("""
 # Student Depression Detection
 
-Website ini dibuat oleh : [Amelia Putri Kayla](https://www.linkedin.com/in/budi-setiawan-1a0b4a1b6/).
+Website ini dibuat oleh : [Amelia Putri Kayla](https://www.linkedin.com/in/amelia-putri-kayla-281631241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app).
 """)
 
 #Menambahkan Gambar dan Pengantar
@@ -19,11 +19,11 @@ st.image(image, caption="Student Depression")
 st.markdown("""
 Student Depression Prediction
 
-Sleep duration is a crucial indicator of mental health among students.  
-According to the *American Academy of Sleep Medicine*, young adults (ages 18–25) are recommended to sleep between **7 to 9 hours per night** for optimal physical and mental health.  
-However, due to academic and work-related stress, many students suffer from **sleep deprivation**, which increases the risk of **stress, fatigue, and even depression**.
+Mental health issues among college students have become a growing concern in higher education. According to the National College Health Assessment conducted by the American College Health Association (ACHA), 
+the percentage of students experiencing psychological distress has increased significantly each year. One key finding reveals that more than 60% of students reported feeling deeply depressed, and over 20% felt hopeless in
+the past few weeks. Academic pressure, social isolation, and uncertainty about the future are the main contributing factors to the rise of depression among students.**.
 
-> **Source**: [Sleep Foundation - Sleep Guidelines](https://www.sleepfoundation.org/how-sleep-works/how-much-sleep-do-we-really-need)
+> **Source**: [Sleep Foundation - Sleep Guidelines](https://www.apa.org/monitor/2022/10/mental-health-campus-care)
 
 ---
 
