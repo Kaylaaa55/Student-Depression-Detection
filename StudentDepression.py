@@ -51,7 +51,11 @@ By detecting early signs of depression, this tool aims to support mental health 
 """)
 
 # Load model
+import os
+print("Files in current directory:", os.listdir())
 with open("StudentDepression4.pkl", "rb") as file:
+    model = pickle.load(file)
+#with open("StudentDepression4.pkl", "rb") as file:
     model = pickle.load(file)
 
 # Form input data
